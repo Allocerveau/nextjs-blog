@@ -13,7 +13,7 @@ import {
 } from '@searchkit/apollo-resolvers'
 
 const searchkitConfig = {
-  host: 'http://localhost:9200/',
+  host: 'https://zeedl6yqtm:3zk96wl5sb@sami-3600596188.eu-central-1.bonsaisearch.net:443',
   index: 'sami_site_v2',
   hits: {
     fields: ['vendeurs','product_names','product_imagelinks','marques','categories','product_links','product_prices']
